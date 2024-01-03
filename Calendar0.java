@@ -11,7 +11,7 @@ public class Calendar0 {
 		nDaysInMonthTest(year);
 	}
 		 
-	// Test the isLeapYear function.
+	// Tests the isLeapYear function.
 	private static void isLeapYearTest(int year) {
 		String commonOrLeap = "common";
 		if (isLeapYear(year)) {

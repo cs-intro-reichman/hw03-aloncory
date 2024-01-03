@@ -33,7 +33,7 @@ public class Calendar1 {
 	 	//// Write the necessary ending code here
 	}
 	
-	// Advance the date (day, month, year) and the day-of-the-week.
+	// Advances the date (day, month, year) and the day-of-the-week.
 	// If the month changes, sets the number of days in this month.
 	// Side effects: changes the static variables dayOfMonth, month, year, dayOfWeek, nDaysInMonth.
 	private static void advance() {

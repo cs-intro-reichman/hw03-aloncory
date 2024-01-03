@@ -14,7 +14,7 @@ public class LowerCase {
         String newString = ""; // Defies an empty string that will be gradually evolved into the answer string
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i); // Gets the char in the i-th place at the original string
-            // Check if the char is an upper-case letter 
+            // Checks if the char is an upper-case letter 
             if ((ch >= 65) && (ch <= 90)) {
                 ch += 32; // Converts an upper-case letter to a low-case letter by changing it's ASCII value.
             }
