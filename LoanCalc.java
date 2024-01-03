@@ -7,7 +7,7 @@ public class LoanCalc {
 	static int iterationCounter;    // Monitors the efficiency of the calculation
 	
     /** 
-     * Gets the loan data and computes the periodical payment.
+     * Get the loan data and computes the periodical payment.
      * Expects to get three command-line arguments: sum of the loan (double),
      * interest rate (double, as a percentage), and number of payments (int).  
      */

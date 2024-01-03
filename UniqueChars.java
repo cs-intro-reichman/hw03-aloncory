@@ -18,7 +18,7 @@ public class UniqueChars {
             if (ch == 32) {
                 newString += ch; // Adds the char to the processed string
             } else {
-                // Removes all the duplicate characters of the original string that are not space characters 
+                // Remove all the duplicate characters of the original string that are not space characters 
                 if (s.indexOf(ch) == i) {
                     newString += ch; // Adds the char to the processed string
                 }
