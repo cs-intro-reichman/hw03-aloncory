@@ -43,7 +43,7 @@ public class LoanCalc {
 		double payment = loan / n;
     	while (endBalance(loan, rate, n, payment) > epsilon) {
 			iterationCounter++;
-			payment += 10;
+			payment += 0.001;
 		}
     	return payment;
     }
@@ -81,7 +81,7 @@ public class LoanCalc {
 	* interest rate (as a percentage), the number of periods (n), and the periodical payment.
 	*/
 	private static double endBalance(double loan, double rate, int n, double payment) {
-		double balance = loan;
+		double balance = loan; 
 		for (int i = 0; i < n; i++) {	
 			balance = (balance - payment) * (1 + 0.01 * rate);
 		}
